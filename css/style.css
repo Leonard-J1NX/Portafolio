@@ -1,0 +1,237 @@
+:root {
+    /* Colores */
+    --color-white: #ffffff;
+    --color-black: #000000;
+    
+    /* Tamaños */
+    --font-size-10: 0.625rem;  /* 10px */
+    --font-size-12: 0.75rem;   /* 12px */
+    --font-size-14: 0.875rem;  /* 14px */
+    --font-size-16: 1rem;      /* 16px */
+    --font-size-18: 1.125rem;  /* 18px */
+    --font-size-20: 1.25rem;   /* 20px */
+    --font-size-24: 1.5rem;    /* 24px */
+    --font-size-28: 1.75rem;   /* 28px */
+    --font-size-32: 2rem;      /* 32px */
+    --font-size-36: 2.25rem;   /* 36px */
+    --font-size-40: 2.5rem;    /* 40px */
+    --font-size-44: 2.75rem;   /* 44px */
+    --font-size-48: 3rem;      /* 48px */
+    --font-size-52: 3.25rem;   /* 52px */
+    --font-size-56: 3.5rem;    /* 56px */
+    --font-size-60: 3.75rem;   /* 60px */
+    --font-size-64: 4rem;      /* 64px */
+    --font-size-68: 4.25rem;   /* 68px */
+    --font-size-72: 4.5rem;    /* 72px */
+    --font-size-76: 4.75rem;   /* 76px */
+    --font-size-80: 5rem;      /* 80px */
+     /* Custom properties para los pesos de tipografía */
+  --font-weight-light: 300; /* Light */
+  --font-weight-regular: 400; /* Regular */
+  --font-weight-medium: 500; /* Medium */
+  --font-weight-semibold: 600; /* Semi-bold */
+  --font-weight-bold: 700; /* Bold */
+  --font-weight-extrabold: 800; /* Extra-bold */
+  }
+*{
+    box-shadow: 0px;
+    margin: 0px;
+}
+
+  .body {
+    font-family: "Oswald";
+    background-color: var(--color-white);
+    box-sizing: 1440px;
+    align-items: center;
+   
+  }
+
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+  }
+
+  .header__logo {
+    width: 54px;
+    height: 54px;
+    padding-right: 582px;
+  }
+
+  .header__about-me {
+    border: none;
+    background-color: white;
+    font-family: "Oswald";
+    font-weight: 400px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--color-black);
+    
+  }
+
+  .header__right {
+    padding-left: 332px;
+    
+  }
+
+  .right__mode {
+    border: none;
+    background-color: var(--color-white);
+    font-family: "Oswald";
+    font-weight: 400px;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-black);
+    padding-left: 35px;
+  }
+
+  .right__language {
+    border: none;
+    background-color: var(--color-white);
+    font-family: "Oswald";
+    font-weight: 400px;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--color-black);
+    padding-right: 35px;
+  }
+
+  /* .main {
+  } */
+
+  .main__logo {
+    width: 361px;
+    min-height: 400px;
+    padding-left: 450px;
+    padding-right: 450px;
+  }
+
+  .main__high {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1217px;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 400px;
+    background-color: var(--color-white);
+    padding-left: 111.5px;
+    padding-right: 111.5px;
+   
+  
+  }
+
+  .high__paragraph {
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* .main__middle {} */
+
+  .images__firts-row {
+    display: flex;
+    padding-left: 111.5px;
+    padding-right: 111.5px;
+    padding-top: 34px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .image__gif {
+    width: 360px;
+  }
+
+  .image__poster {
+    padding-left: 149px;
+    padding-right: 149px;
+    width: 286px;
+  }
+
+  .image__prop-cap {
+    width: 287px;
+  }
+  
+  .images__second-row {
+    display: flex;
+    padding-left: 111.5px;
+    padding-right: 111.5px;
+    padding-bottom: 18px;
+    padding-top: 34px;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+    .image__magazine {
+        width: 350px;
+    }
+  
+    .image__bg {
+       
+        padding-left: 119px;
+        padding-right: 119px;
+        width: 350px;
+    }
+  
+    .image__mcbucks {
+        width: 256px;
+    }
+
+    .footer {
+        flex-direction: row;
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-style: solid;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .footer__left {
+    padding-left: 111.5px;
+    padding-right: 470px;
+    flex-direction: row;
+    display: flex;
+    }
+
+    .facebook-icon {
+    
+    background-color: transparent;
+    border: none;
+    }
+
+    .instagram-icon {
+        background-color: transparent;
+        border: none;
+    }
+
+    .icon {
+        width: 72px;
+    }
+
+    /* .footer__right {
+    
+
+    } */
+
+    .contact {
+        text-decoration: none;
+        font-family: "Oswald";
+        font-size: 32px;
+        padding-left: 470px;
+        align-items: center;
+        background-color: white;
+        border: none;
+        color: var(--color-black);
+    }
